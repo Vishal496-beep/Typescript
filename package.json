@@ -1,0 +1,25 @@
+{
+  "name": "redis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+     "start": "node dist/index.js",
+    "dev": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vishal496-beep/Redis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Vishal496-beep/Redis/issues"
+  },
+  "homepage": "https://github.com/Vishal496-beep/Redis#readme",
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}
