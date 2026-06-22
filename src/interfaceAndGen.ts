@@ -42,3 +42,35 @@ const machine:TeaMachine = {
     }
 
 }
+
+
+//index signature
+
+interface chaiRatings {
+    [flavour:string] : number
+}
+
+const ratings: chaiRatings = {
+    masala: 4.5,
+    ginger: 5
+}
+
+//here interfaces are merging
+
+interface User {  //this one is coming from a library
+    name:string 
+}
+
+interface User {   //this one we created
+    age:number
+}
+
+const you : User = {   //it merged both and we need to add both value name and age otherwise it will give us an error
+    name:"vishal",
+    age:22
+}
+
+interface A {a:string}
+interface B {b: string}
+
+interface C extends A,B {}
